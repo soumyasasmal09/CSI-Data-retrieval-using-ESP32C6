@@ -35,8 +35,8 @@ void app_main(void) {
 
     wifi_config_t wifi_config = {
         .sta = {
-            .ssid = "Airtel_MANJIL",
-            .password = "LongLiveRevolution@73",
+            .ssid = "ssid",
+            .password = "your password",
         },
     };
     ESP_ERROR_CHECK(esp_wifi_set_config(ESP_IF_WIFI_STA, &wifi_config));
